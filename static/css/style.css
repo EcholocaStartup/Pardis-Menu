@@ -80,3 +80,7 @@ nav .head {
     left: -180px;
     text-align: right;
 }
+
+#navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu:last-child {
+    left: -50px;
+}
