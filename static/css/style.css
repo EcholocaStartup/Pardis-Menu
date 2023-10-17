@@ -1,3 +1,11 @@
+@font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/IRANSansWeb\(FaNum\)_Medium.woff2');
+}
+
+
 nav .head {
     display: flex;
     align-items: center;
@@ -79,8 +87,18 @@ nav .head {
     position: absolute;
     left: -180px;
     text-align: right;
+    line-height: 40px;
 }
 
 #navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu:last-child {
     left: -50px;
+}
+
+#navbarDory .nav-link {
+    font-size: 15px;
+    color: #111;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "IRANSans";
+
 }
