@@ -73,3 +73,10 @@ nav .head {
     text-decoration: none !important;
     background-color: #2644bc;
 }
+
+#navbarDory .navbar-nav .dropdown-menu {
+    direction: rtl;
+    position: absolute;
+    left: -180px;
+    text-align: right;
+}
