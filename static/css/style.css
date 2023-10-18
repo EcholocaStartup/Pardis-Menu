@@ -6,13 +6,18 @@
 }
 
 
-nav .head {
+
+nav .headd {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 0 50px;
 
+}
+
+.navbar {
+    background-color: transparent;
 }
 
 .logo-size {
@@ -79,7 +84,7 @@ nav .head {
     outline: none;
     display: inline-block;
     text-decoration: none !important;
-    background-color: #2644bc;
+    background-color: rgb(38, 68, 188);
 }
 
 #navbarDory .navbar-nav .dropdown-menu {
@@ -87,7 +92,11 @@ nav .head {
     position: absolute;
     left: -180px;
     text-align: right;
-    line-height: 40px;
+    line-height: 30px;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 5%), 0 40px 34px -16px rgb(0 0 0 / 8%),
+        0 6px 4px -4px rgb(0 0 0 / 6%), 0 16px 16px -8px rgb(0 0 0 / 12%);
+    padding: 10px 8px;
+    border: none;
 }
 
 #navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu:last-child {
@@ -100,5 +109,51 @@ nav .head {
     text-decoration: none;
     background-color: transparent;
     font-family: "IRANSans";
+}
+
+#navbarDory .dropdown-menu .dropdown-item {
+    font-family: "IRANSans";
+    font-size: 12px;
+    font-weight: 600;
+
+}
+
+#navbarDory .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(208, 238, 258);
+    border-radius: 5px;
+}
+
+#navbarDory .home-mobile {
+    display: none;
+}
+
+#navbarDory .dropdown-menu a[role="button"] {
+    font-size: 18px;
+    background-color: rgb(38, 68, 188);
+    border-radius: 5px;
+    color: white;
+    text-align: center;
+}
+
+
+
+
+
+/* ============Responsive============ */
+
+@media screen and (max-width:1190px) {
+
+    /* #navbarDory .home-desktop {
+    display: none;
+}
+
+*/
+    .logo-size {
+        margin-left: 0;
+    }
+
+    nav .head {
+        padding: 0;
+    }
 
 }

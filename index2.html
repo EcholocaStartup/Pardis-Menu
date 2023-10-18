@@ -11,12 +11,12 @@
     <title>menu</title>
 </head>
 
-<body>
+<body style="height: 2000px;">
     <header>
 
         <nav class="navbar header-nav fixed-top navbar-expand-lg">
 
-            <div class="container-fluid">
+            <div class="container">
                 <div class="head">
                     <!-- Brand -->
                     <a class="navbar-brand home-mobile" href="pardis-crm-software.aspx?#home">
@@ -24,20 +24,21 @@
                     </a>
                     <!-- / -->
                     <!-- Mobile Toggle -->
-                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarDory"
-                        aria-controls="navbarDory" aria-expanded="false" aria-label="Toggle navigation">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" aria-expanded="false"
+                        aria-label="Toggle navigation" data-bs-target="#navbarDory">
                         <span class="navbar-toggler-icon"></span>
                     </button>
                     <!-- / -->
                     <!-- Top Menu -->
                     <div class="collapse navbar-collapse" id="navbarDory">
-                        <ul class="navbar-nav">
+                        <ul class="navbar-nav home-desktop">
                             <li class="nav-item">
                                 <a href="CRM-En.aspx" class="en-btn-mobile m-btn-dark m-btn-dark-new">EN</a>
                             </li>
                             <li class="nav-item">
                                 <a class="nav-link" href="#">خانه</a>
                             </li>
+
                             <li class="nav-item dropdown">
                                 <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
                                     <i class='bx bx-chevron-down'></i>درباره ما
@@ -54,9 +55,17 @@
                                     <i class='bx bx-chevron-down'></i>محصولات
                                 </a>
                                 <ul class="dropdown-menu">
-                                    <li><a class="dropdown-item" href="#"> </a></li>
-                                    <li><a class="dropdown-item" href="#"> </a></li>
-                                    <li><a class="dropdown-item" href="#"> </a></li>
+                                    <li><a class="dropdown-item" href="#"> بازاریابی و فروش </a></li>
+                                    <li><a class="dropdown-item" href="#"> باشگاه مشتریان </a></li>
+                                    <li><a class="dropdown-item" href="#"> اتوماسیون اداری و خدمات پس از فروش </a></li>
+                                    <li><a class="dropdown-item" href="#"> مدیریت درگاه های ارتباطی </a></li>
+                                    <li><a class="dropdown-item" href="#"> نامه نگاری مکاتبات و بایگانی </a></li>
+                                    <li><a class="dropdown-item" href="#"> مدیریت و برنامه ریزی تولید </a></li>
+                                    <li><a class="dropdown-item" href="#"> حسابداری </a></li>
+                                    <li><a class="dropdown-item" href="#"> انبارداری </a></li>
+                                    <li><a class="dropdown-item" href="#"> حقوق و دستمزد </a></li>
+                                    <li><a class="dropdown-item" href="#" role="button"> کلیه محصولات </a></li>
+
                                 </ul>
                             </li>
                             <li class="nav-item dropdown">
@@ -102,12 +111,75 @@
                                 </a>
                             </li>
                         </ul>
+
+                        <ul class="navbar-nav home-mobile">
+                            <li class="nav-item">
+                                <a href="CRM-En.aspx" class="en-btn-mobile m-btn-dark m-btn-dark-new">EN</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">خانه</a>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                                    <i class='bx bx-chevron-down'></i>درباره ما
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> معرفی CRM پردیس و دارت </a></li>
+                                    <li><a class="dropdown-item" href="#">مزایای CRM برای کسب و کار</a></li>
+                                    <li><a class="dropdown-item" href="#">نمونه کارها و رزومه</a></li>
+                                    <li><a class="dropdown-item" href="#">معرفی ما</a></li>
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                                    <i class='bx bx-chevron-down'></i>محصولات
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> بازاریابی و فروش </a></li>
+                                    <li><a class="dropdown-item" href="#"> باشگاه مشتریان </a></li>
+                                    <li><a class="dropdown-item" href="#"> اتوماسیون اداری و خدمات پس از فروش </a></li>
+                                    <li><a class="dropdown-item" href="#"> </a>مدیریت درگاه های ارتباطی </li>
+                                    <li><a class="dropdown-item" href="#"> </a> نامه نگاری مکاتبات و بایگانی </li>
+                                    <li><a class="dropdown-item" href="#"> </a> مدیریت و برنامه ریزی تولید </li>
+                                    <li><a class="dropdown-item" href="#"> </a>حسابداری </li>
+                                    <li><a class="dropdown-item" href="#"> </a> انبارداری </li>
+                                    <li><a class="dropdown-item" href="#"> </a> حقوق و دستمزد </li>
+
+                                </ul>
+                            </li>
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                                    <i class='bx bx-chevron-down'></i>پکیج ها و قیمت ها
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> مقایسه سرور ابری با سرور محلی </a></li>
+                                    <li><a class="dropdown-item" href="#"> مقایسه نسخه های پایه، حرفه ای و سازمانی </a>
+                                    </li>
+                                    <li><a class="dropdown-item" href="#"> قیمت انواع پکیج ها </a></li>
+                                </ul>
+                            </li>
+
+                            <li class="nav-item dropdown">
+                                <a class="nav-link" href="#" role="button" data-bs-toggle="dropdown">
+                                    <i class='bx bx-chevron-down'></i> تماس با ما
+                                </a>
+                                <ul class="dropdown-menu">
+                                    <li><a class="dropdown-item" href="#"> نظرسنجی رضایتمندی </a></li>
+                                    <li><a class="dropdown-item" href="#"> انتقادات و پیشنهادات </a></li>
+                                    <li><a class="dropdown-item" href="#"> استخدام </a></li>
+                                    <li><a class="dropdown-item" href="#"> تماس با ما </a></li>
+                                </ul>
+                            </li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </nav>
         <!-- Navbar -->
     </header>
+
+    <script src="./static/js/script.js"></script>
 </body>
 
 </html>
