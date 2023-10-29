@@ -96,7 +96,7 @@ nav .head {
 #navbarDory .navbar-nav .dropdown-menu {
     direction: rtl;
     position: absolute;
-    left: -180px;
+    left: -120px;
     text-align: right;
     line-height: 30px;
     box-shadow: 0 0 4px 1px rgb(0 0 0 / 5%), 0 40px 34px -16px rgb(0 0 0 / 8%),
@@ -119,8 +119,9 @@ nav .head {
 
 #navbarDory .dropdown-menu .dropdown-item {
     font-family: "IRANSans";
-    font-size: 12px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 35px;
 
 }
 
@@ -133,15 +134,46 @@ nav .head {
     display: none;
 }
 
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu {
+    /* background-color: yellow; */
+    left: -800px;
+    width: 1100px;
+    top: 50px;
+    height: 250px;
+}
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu .dropdown-item {
+    line-height: 60px;
+}
+
 #navbarDory .dropdown-menu a[role="button"] {
-    font-size: 18px;
+    font-size: 15px;
     background-color: rgb(38, 68, 188);
     border-radius: 5px;
     color: white;
-    text-align: center;
+    /* text-align: center; */
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
-#navbarDory .dropdown-menu
+#navbarDory .dropdown-menu .dropdown-item[role="button"]:hover {
+    color: #111111;
+}
+
+#navbarDory .dropdown:nth-child(4) .dropdown-menu .col-3:last-child {
+    display: flex;
+    align-items: center;
+}
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
 
 
 
