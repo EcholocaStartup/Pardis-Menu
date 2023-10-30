@@ -38,7 +38,14 @@ nav .head {
     flex-direction: row-reverse;
     list-style: none;
     width: 100%;
+}
 
+#navbarDory .nav-link {
+    font-size: 15px;
+    color: #111;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "IRANSans";
 }
 
 .en-btn-mobile {
@@ -98,23 +105,20 @@ nav .head {
     position: absolute;
     left: -120px;
     text-align: right;
-    line-height: 30px;
     box-shadow: 0 0 4px 1px rgb(0 0 0 / 5%), 0 40px 34px -16px rgb(0 0 0 / 8%),
         0 6px 4px -4px rgb(0 0 0 / 6%), 0 16px 16px -8px rgb(0 0 0 / 12%);
     padding: 10px 8px;
     border: none;
+    /* display: none; */
 }
+
+/* #navbarDory .navbar-nav .dropdown-menu.active {
+    display: block;
+    background-color: yellow;
+} */
 
 #navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu:last-child {
     left: -50px;
-}
-
-#navbarDory .nav-link {
-    font-size: 15px;
-    color: #111;
-    text-decoration: none;
-    background-color: transparent;
-    font-family: "IRANSans";
 }
 
 #navbarDory .dropdown-menu .dropdown-item {
@@ -122,7 +126,6 @@ nav .head {
     font-size: 14px;
     font-weight: 500;
     line-height: 35px;
-
 }
 
 #navbarDory .dropdown-menu .dropdown-item:hover {
@@ -175,7 +178,9 @@ nav .head {
     margin-right: 15px;
 }
 
-
+#menu1 {
+    display: none;
+}
 
 /* ============Responsive============ */
 
