@@ -11,7 +11,6 @@ ToggleBtn.addEventListener("click", () => {
 }
 
 )
-
 let nav = document.querySelector(".navbar");
 
 window.addEventListener("scroll", () => {
@@ -27,45 +26,54 @@ window.addEventListener("scroll", () => {
 
 )
 
-// let navLinks = document.querySelectorAll("#navbarDory .nav-link");
-// let navLinks = document.querySelectorAll("#navbarDory .dropdown");
-let dropDowns = document.querySelectorAll("#navbarDory .navbar-nav .dropdown-menu");
 
-// let dropDown = document.querySelector("#navbarDory .navbar-nav .dropdown-menu");
+let submenu1 = document.getElementById("submenu1");
+function openSubmenu1() {
+    submenu1.style.display = "block";
+}
 
-
-
-// navLinks.forEach(function (navLink) {
-//     navLink.addEventListener("click", () => {
-//         // navLink.style.backgroundColor = "yellow";
-//         // dropDown.style.display = "block";
-//         // dropDown.style.backgroundColor = "yellow";
-
-//         // dropDowns.forEach((dropDown) => {
-//         //     // dropDown.style.backgroundColor = "yellow";
-//         //     dropDown.style.display = "block";
-//         // }
-//         // )
-
-//         // dropDown.style.backgroundColor = "yellow";
-//         // dropDowns.forEach((dropDown) => {
-//         //     dropDown.style.backgroundColor = "yellow";
-//         //     dropDown.style.display = "block";
-
-//         // }
-
-//         // )
-//         // dropDown.classList.add("active");
+function closeSubmenu1() {
+    submenu1.style.display = "none";
+}
 
 
-//     }
 
-//     )
-// }
+let submenu2 = document.getElementById("submenu2");
+function openSubmenu2() {
+    submenu2.style.display = "block";
+}
 
-// )
+function closeSubmenu2() {
+    submenu2.style.display = "none";
+}
 
-let menu1 = document.getElementById("menu1");
-function openmenu() {
-    menu1.style.display = "block";
+
+
+let submenu3 = document.getElementById("submenu3");
+function openSubmenu3() {
+    submenu3.style.display = "block";
+}
+
+function closeSubmenu3() {
+    submenu3.style.display = "none";
+}
+
+
+let submenu4 = document.getElementById("submenu4");
+function openSubmenu4() {
+    submenu4.style.display = "block";
+}
+
+function closeSubmenu4() {
+    submenu4.style.display = "none";
+}
+
+
+let submenu5 = document.getElementById("submenu5");
+function openSubmenu5() {
+    submenu5.style.display = "block";
+}
+
+function closeSubmenu5() {
+    submenu5.style.display = "none";
 }
