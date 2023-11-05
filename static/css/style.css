@@ -100,6 +100,19 @@ nav .head {
     background-color: rgb(38, 68, 188);
 }
 
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu {
+    position: absolute;
+    left: -800px;
+    width: 1100px;
+    top: 40px;
+    height: 250px;
+
+}
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu .dropdown-item {
+    line-height: 60px;
+}
+
 #navbarDory .navbar-nav .dropdown-menu {
     direction: rtl;
     position: absolute;
@@ -110,13 +123,13 @@ nav .head {
     padding: 10px 8px;
     border: none;
     display: none;
+
 }
 
-/* #navbarDory .navbar-nav .dropdown-menu#submenu1 {
+#navbarDory .dropdown:hover .dropdown-menu {
     display: block;
-} */
 
-
+}
 
 #navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu:last-child {
     left: -50px;
@@ -138,17 +151,7 @@ nav .head {
     display: none;
 }
 
-#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu {
-    /* background-color: yellow; */
-    left: -800px;
-    width: 1100px;
-    top: 50px;
-    height: 250px;
-}
 
-#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu .dropdown-item {
-    line-height: 60px;
-}
 
 #navbarDory .dropdown-menu a[role="button"] {
     font-size: 15px;
@@ -167,7 +170,7 @@ nav .head {
     color: #111111;
 }
 
-#navbarDory .dropdown:nth-child(4) .dropdown-menu .col-3:last-child {
+#navbarDory .dropdown:nth-child(4) .dropdown-menu .col-2 {
     display: flex;
     align-items: center;
 }
