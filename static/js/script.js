@@ -38,14 +38,14 @@ function openSubmenu1() {
 
 
 
-let submenu2 = document.getElementById("submenu2");
-function openSubmenu2() {
-    submenu2.style.display = "block";
-}
+// let submenu2 = document.getElementById("submenu2");
+// function openSubmenu2() {
+//     submenu2.style.display = "block";
+// }
 
-function closeSubmenu2() {
-    submenu2.style.display = "none";
-}
+// function closeSubmenu2() {
+//     submenu2.style.display = "none";
+// }
 
 
 
