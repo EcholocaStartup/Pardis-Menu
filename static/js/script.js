@@ -32,9 +32,9 @@ function openSubmenu1() {
     submenu1.style.display = "block";
 }
 
-function closeSubmenu1() {
-    submenu1.style.display = "none";
-}
+// function closeSubmenu1() {
+//     submenu1.style.display = "none";
+// }
 
 
 
