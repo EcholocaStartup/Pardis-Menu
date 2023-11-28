@@ -5,17 +5,14 @@
     src: url('../fonts/IRANSansWeb\(FaNum\)_Medium.woff2');
 }
 
-
-
-nav .head {
+/* nav .head {
     display: flex;
     align-items: center;
     justify-content: space-between;
     width: 100%;
     padding: 0 50px;
 
-
-}
+} */
 
 .navbar {
     background-color: transparent;
@@ -36,8 +33,8 @@ nav .head {
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    /* flex-direction: row-reverse; */
-    direction: rtl;
+    flex-direction: row-reverse;
+    /* direction: rtl; */
     list-style: none;
     width: 100%;
 }
@@ -51,7 +48,7 @@ nav .head {
     font-family: "IRANSans";
 }
 
-.en-btn-mobile {
+.en-btn-mobile1 {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -150,9 +147,9 @@ nav .head {
     border-radius: 5px;
 }
 
-#navbarDory .home-mobile1 {
+/* #navbarDory .home-mobile1 {
     display: none;
-}
+} */
 
 
 
@@ -178,6 +175,11 @@ nav .head {
     align-items: center;
 }
 
+#navbarDory .dropdown:nth-child(4) .dropdown-menu .col-4 {
+    width: 300px;
+
+}
+
 #navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu img {
     width: 30px;
     height: 30px;
@@ -187,13 +189,31 @@ nav .head {
 
 /* ============Responsive============ */
 
-@media screen and (max-width:1190px) {
+@media screen and (max-width:768px) {
+    #navbarDory .navbar-nav {
+        display: block;
+        direction: rtl;
+    }
 
-    /* #navbarDory .home-desktop {
-    display: none;
+    .navbar {
+        background-color: whitesmoke;
+    }
+
+    #navbarDory .nav-item:first-child {
+        /* background-color: red; */
+        transform: translateX(-90%) translateY(5px);
+    }
+
+    #navbarDory .nav-item:last-child {
+
+        transform: translateX(-75%) translateY(-10px);
+    }
+
+
 }
 
-*/
+@media screen and (max-width:1190px) {
+
     .logo-size {
         margin-left: 0;
     }
@@ -201,5 +221,4 @@ nav .head {
     nav .head {
         padding: 0;
     }
-
 }

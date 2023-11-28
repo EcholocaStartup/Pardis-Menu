@@ -1,0 +1,354 @@
+-----------------------------------*/ @font-face {
+    font-family: IRANSans;
+    font-style: normal;
+    font-weight: 500;
+    src: url('../fonts/IRANSansWeb\(FaNum\)_Medium.woff2');
+}
+
+
+.navbar {
+    background-color: transparent;
+    transition: all 0.2s ease-in-out;
+}
+
+.navbar.active {
+    background-color: whitesmoke;
+}
+
+.container-fluid {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.logo-size1 {
+    width: 150px;
+    padding-top: 10px;
+    margin-left: 20px;
+}
+
+.navbar-toggler {
+    margin-right: 15px;
+    border: none;
+}
+
+#navbarDory {
+    width: 85%;
+    padding: 0 15px 20px 10px;
+}
+
+#navbarDory .navbar-nav {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    flex-direction: row-reverse;
+    list-style: none;
+    width: 100%;
+}
+
+#navbarDory .nav-item {
+    display: flex;
+    justify-content: center;
+    cursor: pointer;
+    /*width:160px;*/
+}
+
+#navbarDory .nav-link {
+    font-size: 15px;
+    color: #111;
+    /* color: red; */
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "IRANSans";
+}
+
+.en-btn-mobile1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 35px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+    text-decoration: none !important;
+    background-color: #2644bc;
+}
+
+.m-btn-dark {
+    color: #fff;
+}
+
+.m-btn-dark:hover {
+    color: #fff;
+    background: #111111;
+    transform: translateY(-7px);
+    -webkit-transform: translateY(-7px);
+    -moz-transform: translateY(-7px);
+    -o-transform: translateY(-7px);
+}
+
+.m-btn {
+    height: 45px;
+    width: max-content;
+    line-height: 45px;
+    padding: 0 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: 500;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+    cursor: pointer;
+    outline: none;
+    display: inline-block;
+    text-decoration: none !important;
+    background-color: rgb(38, 68, 188);
+}
+
+
+#navbarDory .navbar-nav .dropdown-menu {
+    direction: rtl;
+    position: absolute;
+    left: -40px;
+    text-align: right;
+    box-shadow: 0 0 4px 1px rgb(0 0 0 / 5%), 0 40px 34px -16px rgb(0 0 0 / 8%), 0 6px 4px -4px rgb(0 0 0 / 6%), 0 16px 16px -8px rgb(0 0 0 / 12%);
+    padding: 10px 8px;
+    border: none;
+    display: none;
+    top: 30px;
+
+}
+
+/*test*/
+
+/*test*/
+
+
+
+
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu {
+    position: absolute;
+    left: -700px;
+    width: 1100px;
+    top: 40px;
+    height: 250px;
+    opacity: 15;
+}
+
+
+
+#navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu {
+    left: -20px;
+}
+
+#navbarDory .dropdown:hover .dropdown-menu {
+    display: block;
+    transition: display 0.2s ease;
+}
+
+
+
+
+.mobile-dropdown {
+    opacity: -10;
+    /*display:none;*/
+}
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu .dropdown-item {
+    margin-top: 12px;
+    line-height: 55px;
+}
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(208, 238, 258);
+    border-radius: 5px;
+}
+
+
+
+
+
+
+
+#navbarDory .dropdown-menu .dropdown-item {
+    font-family: "IRANSans";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 35px;
+}
+
+#navbarDory .dropdown-menu .dropdown-item:hover {
+    background-color: rgb(208, 238, 258);
+    border-radius: 5px;
+}
+
+/*#navbarDory .home-mobile1 {
+    display: none;
+}*/
+
+#navbarDory .dropdown-menu a[role="button"] {
+    font-size: 15px;
+    background-color: rgb(38, 68, 188);
+    border-radius: 5px;
+    color: white;
+    /* text-align: center; */
+    width: 150px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#navbarDory .dropdown-menu .dropdown-item[role="button"]:hover {
+    color: #111111;
+}
+
+#navbarDory .dropdown:nth-child(4) .dropdown-menu .row .col-2 {
+    display: flex;
+    align-items: flex-end;
+    top: -20px;
+    left: 13px;
+
+}
+
+#navbarDory .dropdown:nth-child(4) .dropdown-menu .row .col-4 {
+    width: 30%;
+    right: 20px;
+}
+
+#navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu img {
+    width: 30px;
+    height: 30px;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+/* ============Responsive============ */
+/* @media screen and (min-width:1000px) {
+    #navbarDory .navbar-nav .dropdown:nth-child(4) {
+        position: absolute;
+        top: 5px;
+        right: 200px;
+    }
+}
+
+*/
+
+@media screen and (max-width:1000px) {
+
+    #navbarDory .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        align-items: self-end;
+        /*justify-content: center;*/
+        /* direction: rtl;
+        justify-content: flex-end;*/
+        /* display: block;*/
+        width: 100%;
+        height: 450px;
+    }
+
+    #navbarDory ul .dropdown-item {
+        width: 100%;
+    }
+
+    .navbar {
+        background-color: white;
+    }
+
+    #navbarDory .nav-item:first-child {
+        position: absolute;
+        right: 15px;
+        top: 500px;
+    }
+
+    #navbarDory .nav-item:last-child {
+        position: absolute;
+        left: 15px;
+        top: 500px;
+    }
+
+    #navbarDory .nav-item {
+        height: 60px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    #navbarDory .navbar-nav .dropdown-menu {
+        left: -220px;
+        top: 5px;
+    }
+
+    #navbarDory .navbar-nav .dropdown:nth-last-child(2) .dropdown-menu {
+        left: -130px;
+        /*top: -4px;*/
+    }
+
+    #navbarDory .navbar-nav .dropdown:nth-last-child(3) .dropdown-menu {
+        left: -170px;
+        /*top: -4px;*/
+    }
+
+    #navbarDory .navbar-nav .dropdown:nth-child(4) .dropdown-menu {
+        opacity: -10;
+    }
+
+    #navbarDory .navbar-nav .dropdown:nth-child(4):hover .mobile-dropdown {
+        opacity: 10;
+        position: absolute;
+        width: 420px;
+        height: 220px;
+        left: -350px;
+        padding: 0;
+    }
+
+    #navbarDory .navbar-nav .dropdown:nth-child(4) .mobile-dropdown .dropdown-item {
+        line-height: 15px;
+        font-size: 12px;
+    }
+
+    #navbarDory .dropdown-menu a[role="button"] {
+        font-size: 10px;
+        width: 100px;
+        height: 40px;
+        position: absolute;
+        top: 40px;
+        right: 60px;
+    }
+}
+
+
+@media screen and (min-width:1040px) {
+
+    #navbarDory .nav-item:first-child,
+    #navbarDory .nav-item:nth-child(2),
+    #navbarDory .nav-item:nth-child(3),
+    #navbarDory .nav-item:nth-child(4) {
+        width: 110px;
+    }
+
+    #navbarDory .nav-item:nth-child(7) {
+        width: 130px;
+    }
+
+    #navbarDory .nav-item:nth-child(5),
+    #navbarDory .nav-item:nth-child(6) {
+        width: 190px;
+    }
+}
+
+@media screen and (max-width:1190px) {}
+
+/*---------------------------------
+* 01. End New Menu
+-----------------------------------*/
